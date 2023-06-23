@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Love Calculator</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        .characters {
+            background-image: linear-gradient(to bottom right, #000000, #0c0526);
+            display: block;
+            background-color: #050209;
+        }
+
+        h1 {
+            color: #ffffff;
+        }
+
+        h2 {
+            color: #ffffff;
+        }
+
+        #loveCalculator {
+            margin-top: 50px;
+        }
+
+
+        #result {
+            font-weight: bold;
+            color: white;
+        }
+
+        .theme {
+            color: white;
+            margin-top: 50px;
+        }
+    </style>
+    <link href="../style/love.css" rel="stylesheet">
+    <link crossorigin="anonymous" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+          integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" rel="stylesheet">
+</head>
+<body class="characters">
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark">.
+    <div class="container-fluid">
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link active" href="#">Preview</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link active" href="#characters">Characters</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="vote.html" target="_blank">Voting</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="cast.html" target="_blank">Cast</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="quiz.html" target="_blank">Quiz</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="lovecalc.html" target="_blank">Love Calculator</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="ticket.html" target="_blank">Ticket</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="test.html" target="_blank">Test</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+<div class="container">
+    <div class="row justify-content-center">
+        <div class="col-md-6">
+            <h1 class="theme">Avengers Love Calculator</h1>
+            <div id="loveCalculator">
+                <h2>Select a Man:</h2>
+                <select class="form-control" id="menSelect">
+                    <option value="">Select a Man</option>
+                </select>
+
+                <h2>Select a Woman:</h2>
+                <select class="form-control" id="womenSelect">
+                    <option value="">Select a Woman</option>
+                </select>
+
+                <button class="btn btn-primary btn-block" id="calculateBtn" style="margin-top: 25px">Calculate
+                    Compatibility
+                </button>
+
+                <div class="text-center font-weight-bold mt-3" id="result"></div>
+                <hr>
+                <hr>
+            </div>
+
+        </div>
+
+    </div>
+    <div class="container" style="display: flex">
+        <div style="width: 185px; height: 270px; margin: 0 5px">
+            <img src="../images/was.jpg">
+        </div>
+        <div style="width: 185px; height: 270px; margin: 0 5px">
+            <img src="../images/gg.jpg">
+        </div>
+        <div style="width: 185px; height: 270px; margin: 0 5px">
+            <img src="../images/hh.jpg">
+        </div>
+        <div style="width: 185px; height: 270px; margin: 0 5px">
+            <img src="../images/men.jpg">
+        </div>
+        <div style="width: 185px; height: 270px; margin: 0 5px">
+            <img src="../images/nebula.jpg">
+        </div>
+    </div>
+
+</div>
+<script src="../javas/love.js">
+
+</script>
+</body>
+</html>

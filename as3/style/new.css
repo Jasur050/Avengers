@@ -1,0 +1,38 @@
+.container {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 100px 20%;
+}
+.characters{
+    background-image: linear-gradient(to bottom right, #000000, #0c0526);
+    display: block;
+    background-color: #050209;
+}
+
+.gall {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 30px;
+}
+.gall img {
+    width: 80%;
+    border:2px solid #fff;
+    box-shadow: 5px 5px 1px #7c8283;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.n {
+    align-items: center;
+}
+
+h1 {
+    color: #999999;
+}

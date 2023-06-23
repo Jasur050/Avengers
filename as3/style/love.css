@@ -1,0 +1,30 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+.characters{
+    background-image: linear-gradient(to bottom right, #000000, #0c0526);
+    /*height: 1600px;*/
+    display: block;
+    background-color: #050209;
+}
+h1 {
+    color: #333;
+}
+
+#loveCalculator {
+    margin-top: 50px;
+}
+
+select {
+    margin-bottom: 10px;
+}
+
+button {
+    margin-top: 10px;
+}
+
+#result {
+    margin-top: 20px;
+    font-weight: bold;
+}
